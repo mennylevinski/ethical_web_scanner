@@ -10,8 +10,7 @@ Built for **Ethical Diagnostics** and **Security Awareness**.
 This tool is intended solely for lawful and authorized use.
 You must obtain explicit permission from the network owner before scanning, auditing, or testing any systems.
 The author assumes no liability for misuse or for actions that violate applicable laws or organizational policies.
-Use responsibly and in compliance with your local governance, regulations, and ethical standards.
-
+Use responsibly and in compliance with your local governance.
 ---
 
 ## 🔍 Features
