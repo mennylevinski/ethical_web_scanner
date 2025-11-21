@@ -5,7 +5,7 @@ Built for **Ethical Diagnostics** and **Security Awareness**.
 
 ---
 
-## ⚖️ Legal Disclaimer
+## ✔️ Legal Disclaimer
 
 This tool is intended solely for lawful and authorized use.
 You must obtain explicit permission from the network owner before scanning, auditing, or testing any systems.
