@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
 """
+Author: Menny Levinski
 
 Cross-platform Interactive Web Vulnerability Scanner for Ethical Diagnostics.
 
 Requirements:
  - Python 3.8+
  - pip install requests
-
 """
 
 import sys
@@ -359,4 +359,5 @@ if __name__ == '__main__':
     except Exception as e:
         print(f'Error: {e}')
         sys.exit(1)
+
 
