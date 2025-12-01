@@ -22,7 +22,7 @@ Use responsibly and in compliance with your local governance.
 - Cookie analysis (parses Set-Cookie headers and looks for Secure, HttpOnly, SameSite)
 - Basic reflected XSS pattern search (passive pattern matching only)
 - Simple injection-like pattern search in body (SQLi-like keywords), passive only
-- TLS / certificate info for https targets: certificate subject, issuer and validity,
+- TLS / certificate info for https targets: certificate subject, issuer and validity
 - Report includes a full checklist section describing each check and its result
 
 ---
