@@ -336,13 +336,14 @@ def main():
     print('LEGAL: You MUST have explicit written permission to scan any target that is not your own lab.')
     consent = input('I confirm I have permission to test the target described below (type YES to continue): ').strip()
     if consent.upper() != 'YES':
-        print('Consent not given. Exiting.')
+        input('Consent not given. Press Enter to exit...')
         return
 
-    target = input('Enter the full target URL (including http:// or https://) to scan: ').strip()
-    if not validate_url(target):
-        print('Invalid URL. Make sure it includes http:// or https://')
-        return
+    while True:
+        target = input("Enter the full target URL (including http:// or https://) to scan: ").strip()
+        if validate_url(target):
+            break
+        print("Invalid URL. Make sure it includes http:// or https://\n")
 
     print(f'Scanning {target} ... (this may take a few seconds)')
     report = scan_and_report(target)
@@ -359,5 +360,3 @@ if __name__ == '__main__':
     except Exception as e:
         print(f'Error: {e}')
         sys.exit(1)
-
-
