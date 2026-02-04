@@ -4,7 +4,7 @@ An interactive, cross platform web vulnerability scanner designed to improve sec
 
 ---
 
-## ✔️ Legal Use
+## ✔️ Lawful Use
 
 This tool is intended solely for lawful and authorized use.
 You must obtain explicit permission from the network owner before scanning, auditing, or testing any systems.
@@ -13,7 +13,7 @@ Use responsibly and in compliance with your local governance.
 
 ---
 
-## 🔍 Features
+## 🧬 Features
 
 ### Checks performed (for the requested URL):
 - HTTP request & response metadata (status code, URL, final URL after redirects, content-type, server header, content-length)
@@ -26,7 +26,7 @@ Use responsibly and in compliance with your local governance.
 
 ---
 
-## ⚙️ Installation
+## 🐍 Installation
 
 ### 1️ Requirements
 - Python **3.0+**
